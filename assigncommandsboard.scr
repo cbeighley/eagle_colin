@@ -1,0 +1,6 @@
+#Assign command hotkeys in Board
+
+ASSIGN C+D 'move';
+ASSIGN C+E 'mark';
+ASSIGN C+R 'delete';
+ASSIGN C+F 'ratsnest';
