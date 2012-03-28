@@ -4,3 +4,5 @@ ASSIGN C+D 'move';
 ASSIGN C+E 'mark';
 ASSIGN C+R 'delete';
 ASSIGN C+F 'ratsnest';
+ASSIGN C+A 'show';
+ASSIGN C+Q 'route';

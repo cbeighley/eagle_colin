@@ -1,12 +1,12 @@
 #Assign display hotkeys in Board
 #6 layer
 
-ASSIGN C+1 'display none top pads vias dimension tplace torigins'; #Top routing view
-ASSIGN C+2 'display none route2 pads vias dimension tplace torigins'; #Internal 1 routing view
-ASSIGN C+3 'display none route3 pads vias dimension tplace torigins'; #Internal 2 routing view
-ASSIGN A+1 'display none route14 pads vias dimension tplace torigins'; #Internal 3 routing view
-ASSIGN A+2 'display none route15 pads vias dimension tplace torigins'; #Internal 4 routing view
-ASSIGN A+3 'display none bottom pads vias dimension bplace borigins'; #Bottom routing view
+ASSIGN C+1 'display none top pads vias dimension tplace torigins unrouted'; #Top routing view
+ASSIGN C+2 'display none route2 route15 pads vias dimension tplace torigins unrouted'; #Internal 1 routing view
+ASSIGN C+3 'display none route3 pads vias dimension tplace torigins unrouted'; #Internal 2 routing view
+ASSIGN A+1 'display none route14 pads vias dimension tplace torigins unrouted'; #Internal 3 routing view
+ASSIGN A+2 'display none top route2 route15 pads vias dimension tplace torigins unrouted'; #Internal 4 routing view
+ASSIGN A+3 'display none bottom pads vias dimension bplace borigins unrouted'; #Bottom routing view
 
-ASSIGN A+4 'display none top pads vias dimension tplace torigins tnames'; #Top part placement view
-ASSIGN A+5 'display none bottom pads vias dimension bplace borigins bnames'; #Bottom part placement view
+ASSIGN A+4 'display none top pads vias dimension tdocu torigins'; #Top part placement view
+ASSIGN A+5 'display none bottom pads vias dimension bdocu borigins'; #Bottom part placement view
